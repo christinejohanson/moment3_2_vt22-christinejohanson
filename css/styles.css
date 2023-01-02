@@ -1,0 +1,674 @@
+body {
+    background-color: white;
+    
+}
+#content {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+/* menu container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a:hover {
+    background-color: #b9bca6;
+}
+
+/* image and text 
+#start-puff {
+    grid-template-columns: 64% auto;
+} */
+
+.picturequote {
+    position: relative;  
+    padding-top: 60px;
+}
+
+.picturequote img {
+        padding-left: 12%;
+        width: 700px;
+    }
+
+.picturequote p {
+    position: absolute;
+    left: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: #577556;
+    color: white;
+}  
+
+.widget_textimg {
+    padding-top: 10px;
+}
+
+h2 {
+font-family: 'Poppins', Arial, sans-serif;
+font-size: 0.8em;
+margin-block-end: 0em;
+}
+
+/* section news */
+.newsmainpage {
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.allnews {
+    margin-bottom: 1%;   
+    width: 100%;
+}
+
+.newssquare {
+    display: flex;
+    background-color: #b9bca6;
+    margin-bottom: 2%;
+}
+
+.newspic {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding: 1% 0% 1% 10%;
+}
+
+.newspic img {
+    width: 90%;
+    height: auto;
+}
+
+h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: white;
+    font-size: 0.8em;
+}
+
+.textsquare {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 8%;
+}
+
+.textsquare p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    color: white;
+    margin-block-start: 0;
+}
+
+.textsquare a:link, a:visited {
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.4s;
+    padding-bottom: 1%;
+
+}
+
+/* section news page */
+.allnewsmain {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 85px;
+}
+
+/* section about company */
+.companysquare {
+    margin-left: 40%;
+    background-color: #577556;
+    width: 40%;
+    margin-top: 10%;
+    padding: 3%;
+}
+
+.companysquare p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    margin-block-start: 0;
+}
+
+.companysquare h2 {
+    color: white;
+}
+
+.squarewithheading {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 90px;
+}
+
+/* about-page settings */
+.companysquare_full {
+    margin:  0 auto;
+    background-color: #577556;
+    width: 84%;
+    padding: 4% 8% 15% 8%;
+}
+
+.companysquare_full h2 {
+    color: white;
+}
+
+.companysquare_full p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    margin-block-start: 0;
+}
+
+.staffsquare {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 80%;
+}
+
+.staffsection {
+    padding: 2%;
+    display: flex;
+    background-color: #b9bca6;
+}
+
+.staffpics {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: white;
+}
+
+.staffpics h2 {
+   margin-block-start: 0; 
+}
+
+.staffpics p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    margin-block-start: 0;
+}
+
+.fi-sr-user {
+    font-size: 2em;
+}
+
+/* contact page settings */
+.formulasquare {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 90px;
+    margin-bottom: 8%;
+}
+.formulasquare h2 {
+    padding-left: 4%;;
+}
+
+.formulasquare_full {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin:  0 auto;
+    background-color: #b9bca6;
+    width: 84%;
+    padding: 3% 4% 15% 4%;
+}
+
+.textformula {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    margin-block-start: 0; 
+}
+
+.klassnamnforcss {
+    margin-top: 1%;
+    width: 80%;
+    border: none;
+}
+
+.sendit {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 20%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 19%;
+    border: none;
+    padding: 1.5%;
+}
+
+textarea {
+    width: 81%;
+    height: 150px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 14px;
+    resize: none;
+    margin-top: 1%;
+} 
+
+.strecktwo {
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 100%;
+    height: 10px;
+
+}
+
+/*section contact */
+.contactsquare {
+    margin-left: 55%;
+    margin-top: 4%;
+}
+
+.logos {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.fi-brands-facebook, .fi-brands-instagram {
+    font-size: 3em;
+    background-color: #577556;
+    color: #b9bca6;
+    padding: 2.5%;
+    margin-right: 2%;
+}
+.fi-brands-whatsapp, .fi-brands-telegram {
+    font-size: 3em;
+    background-color: #b9bca6;
+    color: #577556;
+    padding: 2.5%;
+    margin-right: 2%;
+}
+
+/* section footer */
+.footertext {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0% 2%;
+    border-top: solid black 3px;
+    margin-bottom: 3%;
+}
+
+footer {
+    width: 100%;
+}
+
+.leftfield p, .rightfield p, .middlefield p {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+}
+
+.rightfield .fi-brands-facebook, .rightfield .fi-brands-instagram {
+    font-size: 1.2em;
+    color: black;
+    background-color: transparent;
+}
+
+.blacklogos {
+    display: flex;
+}
+
+/* images */
+img {
+    width: 100px; 
+} 
+
+footer img {
+    width: 100%;
+}
+
+/* navigering och meny */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+    padding: 3px 52px 0px 52px;
+}
+
+/* hamburger */
+.hamburger {
+    display: block;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background-color: black;
+        border-radius: 6px;
+        z-index: 1;
+        transform-origin: 0 0;
+        transition: 0.4s;
+    }
+
+
+/*menu */
+.themenu ul {
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin-top: 22px;
+    list-style: none;
+    padding: 2px 0px;
+}
+
+.themenu a {
+        font-size: 0.9em;
+        color: black;
+        margin: 2px 5px;
+        text-decoration: none;
+        font-family: 'Poppins', Arial, sans-serif;
+        font-weight: bold;
+        transition: 0.4s;
+        padding: 8px 6px;
+        border-radius: 1px;
+    }
+
+li {
+    margin: 0px 6px;
+}    
+
+ .current_page_item a {
+    background-color: #b9bca6;
+}
+
+.current_post_ancestor {
+    background-color: #b9bca6;
+} 
+
+
+/* slide out navigation */
+#small_nav {
+       display: none;
+     position: fixed;
+     top: 0;
+     z-index: 98;
+     background-color: #577556;
+     padding-top: 120px;
+     transition: 0.4s; 
+}
+  
+#small_nav a {
+         display: block;
+         font-family: 'Poppins', Arial, sans-serif;
+         font-size: 0.9em;
+         font-weight: bold;
+         color: black;
+         width: 100%;
+         max-width: 200px;
+         margin: 0 auto 16px;
+         text-align: center;
+         padding: 12px 16px;
+         background-color: #b9bca6;
+         text-decoration: none;
+         border-radius: 1px;
+     } 
+ 
+#small_nav a:hover {
+         background-color: white;
+         color: #577556;
+     } 
+/* strecket*/
+.streck {
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+} 
+    
+/* skärmanpassning */
+/*small devices */
+@media only screen and (max-width: 600px) {
+/* index-page */  
+.picturequote {
+    width: 100%;
+    padding-top: 25px;
+    margin-bottom: 5%;
+}
+.picturequote img {
+    padding-left: 0;
+}
+
+.picturequote p {
+    position: absolute;
+    left: 50%;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 50%;
+}
+.widget_textimg {
+    padding-top: 20px;
+} 
+
+.storbild {
+    width: 60%;
+    height: auto;
+    padding-left: 2%;
+}
+.newsmainpage {
+    width: 100%;
+    margin-left: 0;
+}
+
+.allnews {
+    margin-bottom: 1%;
+    width: 100%;
+}
+.newspic {
+    width: 40%;
+    padding: 1% 2% 1% 5%;
+}
+.newspic img {
+    width: 90%;
+    height: auto;
+}
+nav {
+    padding: 3px;
+}
+
+.contactsquare {
+    margin-left: 10%;
+    margin-top: 13%;
+}
+/* about-page */
+.squarewithheading {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 40px;
+}
+
+.staffsection {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b9bca6;
+}
+.staffpics {
+    width: 100px;
+}
+/* news-page */
+.allnewsmain {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 50px;
+}
+.allnewsmain h2 {
+    margin-bottom: 1%;
+}
+/*contact-page */
+.formulasquare {
+    width: 90%;
+}
+.formulasquare h2 {
+    margin-bottom: 1%;
+}
+
+.fi-brands-facebook, .fi-brands-instagram, .fi-brands-whatsapp, .fi-brands-telegram {
+    font-size: 2em;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.leftfield p, .rightfield p, .middlefield p {
+    font-size: 0.6em;
+}
+
+}
+
+/*medium devices */
+@media only screen and (max-width: 820px) and (min-width: 601px) {
+/* index-page */ 
+.container {
+    width: 90%;
+} 
+#content {
+    width: 95%;
+}
+.streck {
+    width: 95%;
+}
+
+.newsmainpage {
+    width: 95%;
+    margin-top: 4%;
+    margin-left: 0;
+}
+
+.picturequote img {
+    padding-left: 0%;
+}
+
+.picturequote p {
+    left: 50%;
+    width: 45%;
+}
+
+.storbild {
+    width: 60%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.allnews {
+    margin-top: 1%;
+    margin-left: 0;
+    width: 100%;
+}
+.newspic {
+    width: 30%;
+    padding: 1% 2% 1% 5%;
+}
+.companysquare {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 8%;
+    padding: 2% 3%;
+}
+
+.contactsquare {
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+.logos {
+    margin-bottom: 6%;
+}
+.leftfield p, .rightfield p, .middlefield p {
+    font-size: 0.6em;
+}
+
+.hamburger, .icon {
+    display: none;
+}
+.themenu ul {
+    display: flex;
+}
+
+nav {
+    padding: 3px;
+}
+/* about-page */
+.squarewithheading {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 90px;
+}
+
+.staffsection {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b9bca6;
+}
+.staffpics {
+    width: 120px;
+}
+/* news-page */
+.allnewsmain {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 50px;
+}
+.allnewsmain h2 {
+    margin-bottom: 1%;
+}
+/*contact-page */
+.formulasquare {
+    width: 90%;
+}
+.formulasquare h2 {
+    margin-bottom: 1%;
+}
+.fi-brands-facebook, .fi-brands-instagram, .fi-brands-whatsapp, .fi-brands-telegram {
+    font-size: 2em;
+    padding: 2%;
+    margin-right: 2%;
+}
+}
+
+/* Larger devices 821px and up */
+@media only screen and (min-width: 821px) {
+    .hamburger, .icon {
+        display: none;
+    }
+    .themenu ul {
+        display: flex;
+    }
+}     
+ 
